@@ -1,9 +1,6 @@
 const sumArray = (data) => {
     let resultDataArray = 0;
     if(data.length > 0) {
-
-    
-        console.log('dat lebih dari 0')
         for(let i=0; i < data.length; i++){
             resultDataArray += data[i]
          }
